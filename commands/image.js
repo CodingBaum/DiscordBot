@@ -31,6 +31,9 @@ module.exports = {
             return message.channel.send(newEmbed);
         }*/
 
+        newEmbed.setTitle("Searching for Images...");
+        const temp = await message.channel.send(newEmbed);
+
         const image_results = await google.scrape(image_query, 1);
         if (image_results.length == 0) {
             newEmbed.setTitle("No images found!");
@@ -42,6 +45,7 @@ module.exports = {
             .setTitle(image_query)
             .setURL(image_results[0].url);
             message.channel.send(newEmbed);
+            temp.delete();
         } catch {
             newEmbed.setTitle("Slow down!");
             message.channel.send(newEmbed);
