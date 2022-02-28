@@ -1,0 +1,43 @@
+--------------------------- Session from 02/25/2022 12:56:10 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\DiscordAPIError.js:10
+    const flattened = this.constructor.flattenErrors(error.errors || error).join('\n');
+                                                           ^
+
+TypeError: Cannot read properties of undefined (reading 'errors')
+    at new DiscordAPIError (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\DiscordAPIError.js:10:60)
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\ping.js:17:15)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+--------------------------- Session from 02/25/2022 12:56:17 ------------------------------
+-- Bot is online!
+--------------------------- Session from 02/25/2022 12:57:11 ------------------------------
+-- Bot is online!
+--------------------------- Session from 02/25/2022 12:58:48 ------------------------------
+-- Bot is online!
+--------------------------- Session from 02/25/2022 12:58:55 ------------------------------
+-- Bot is online!
+--------------------------- Session from 02/25/2022 14:45:34 ------------------------------
+-- Bot is online!
+--------------------------- Session started 02/26/2022 12:49:27 ------------------------------
+-- Bot is online!
+--------------------------- Session started 02/26/2022 15:30:17 ------------------------------
+-- Bot is online!
+--------------------------- Session started 02/26/2022 21:24:06 ------------------------------
+-- Bot is online!
+--------------------------- Session started 02/27/2022 10:02:49 ------------------------------
+-- Bot is online!
+--------------------------- Session started 02/28/2022 07:59:00 ------------------------------
+-- Bot is online!

@@ -1,0 +1,4 @@
+# ignore node module as they are too large for git
+node_modules/
+node_modules
+.env
