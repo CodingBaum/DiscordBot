@@ -13,6 +13,15 @@ module.exports = {
     async execute(client, message, args) {
         const newEmbed = new Discord.MessageEmbed();
         newEmbed.setColor('#FF0000');
+
+        if (args.join(' ').length > 200) {
+            newEmbed
+            .setColor('#FF0000')
+            .setURL(null)
+            .setTitle('Please choose a shorter query');
+            return message.channel.send(newEmbed);
+        }
+
         if(message.mentions.users.first()) {
             const user = message.mentions.users.first();
             return message.channel.send(user.displayAvatarURL());
@@ -39,6 +48,7 @@ module.exports = {
             newEmbed.setTitle("No images found!");
             return message.channel.send(newEmbed);
         }
+
         try {
             newEmbed.setImage(image_results[0].url)
             .setColor('999900')

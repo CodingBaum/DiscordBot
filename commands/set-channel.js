@@ -22,7 +22,7 @@ module.exports = {
                 welcomeMessage: args.join(' ')
             }
 
-            let data = fs.readFileSync(path.resolve(__dirname, '../guildMemberAddSettings.json'));
+            let data = fs.readFileSync(path.resolve(__dirname, '../data/guildMemberAddSettings.json'));
             let settings = JSON.parse(data);
 
             settings.welcome = settings.welcome.filter(function(value){
@@ -31,7 +31,7 @@ module.exports = {
 
             settings.welcome.push(welcome);
 
-            fs.writeFileSync(path.resolve(__dirname, '../guildMemberAddSettings.json'), JSON.stringify(settings));
+            fs.writeFileSync(path.resolve(__dirname, '../data/guildMemberAddSettings.json'), JSON.stringify(settings));
         }
     }
 }

@@ -9,7 +9,7 @@ module.exports = (Discord, client, member) => {
     .setDescription("---")
     .setColor("#14d948");
 
-    let data = fs.readFileSync(path.resolve(__dirname, '../../guildMemberAddSettings.json'));
+    let data = fs.readFileSync(path.resolve(__dirname, '../../data/guildMemberAddSettings.json'));
     let settings = JSON.parse(data);
 
     settings.welcome.forEach(element => {

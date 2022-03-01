@@ -45,3 +45,982 @@ TypeError: Cannot read properties of undefined (reading 'errors')
 -- Bot is online!
 --------------------------- Session started 02/28/2022 12:59:46 ------------------------------
 -- Bot is online!
+--------------------------- Session started 02/28/2022 16:12:51 ------------------------------
+-- Bot is online!
+--------------------------- Session started 02/28/2022 16:33:17 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 07:57:26 ------------------------------
+-- Bot is online!
+node:internal/fs/utils:344
+    throw err;
+    ^
+
+Error: ENOENT: no such file or directory, open 'C:\Users\marku\OneDrive\Dokumente\DiscordBot\guildMemberAddSettings.json'
+    at Object.openSync (node:fs:585:3)
+    at Object.readFileSync (node:fs:453:35)
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\set-channel.js:25:27)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17) {
+  errno: -4058,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: 'C:\\Users\\marku\\OneDrive\\Dokumente\\DiscordBot\\guildMemberAddSettings.json'
+}
+--------------------------- Session started 03/01/2022 08:09:22 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 08:09:42 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:170
+          return reject(new DiscordAPIError(request.path, data, request.method, res.status));
+                        ^
+
+DiscordAPIError: Invalid Form Body
+embed.title: Must be 256 or fewer in length.
+embeds[0].title: Must be 256 or fewer in length.
+    at RequestHandler.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:170:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  method: 'post',
+  path: '/channels/822573644898500648/messages',
+  code: 50035,
+  httpStatus: 400
+}
+--------------------------- Session started 03/01/2022 11:17:43 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:170
+          return reject(new DiscordAPIError(request.path, data, request.method, res.status));
+                        ^
+
+DiscordAPIError: Invalid Form Body
+embed.title: Must be 256 or fewer in length.
+embeds[0].title: Must be 256 or fewer in length.
+    at RequestHandler.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:170:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  method: 'post',
+  path: '/channels/710878846173446183/messages',
+  code: 50035,
+  httpStatus: 400
+}
+--------------------------- Session started 03/01/2022 11:33:41 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 11:35:39 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\image.js:48
+            message.channel.send(embed);
+                                 ^
+
+ReferenceError: embed is not defined
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\image.js:48:34)
+--------------------------- Session started 03/01/2022 11:36:18 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 11:36:39 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:170
+          return reject(new DiscordAPIError(request.path, data, request.method, res.status));
+                        ^
+
+DiscordAPIError: Invalid Form Body
+embed.title: Must be 256 or fewer in length.
+embeds[0].title: Must be 256 or fewer in length.
+    at RequestHandler.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:170:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  method: 'post',
+  path: '/channels/710878846173446183/messages',
+  code: 50035,
+  httpStatus: 400
+}
+--------------------------- Session started 03/01/2022 11:36:48 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 11:37:24 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:170
+          return reject(new DiscordAPIError(request.path, data, request.method, res.status));
+                        ^
+
+DiscordAPIError: Invalid Form Body
+embed.title: Must be 256 or fewer in length.
+embeds[0].title: Must be 256 or fewer in length.
+    at RequestHandler.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:170:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  method: 'post',
+  path: '/channels/710878846173446183/messages',
+  code: 50035,
+  httpStatus: 400
+}
+--------------------------- Session started 03/01/2022 11:37:40 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 11:37:47 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:05:56 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:10
+        if (message.mentions.length() > 0) {
+                             ^
+
+TypeError: message.mentions.length is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:10:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 12:06:16 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:06:31 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:10
+        if (message.mentions.size() > 0) {
+                             ^
+
+TypeError: message.mentions.size is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:10:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 12:07:10 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:08:19 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:21
+            challanged: message.mentions.first(),
+                                         ^
+
+TypeError: message.mentions.first is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:21:42)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 12:08:31 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:08:56 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:25
+        let data = fs.readFileSync(path.resolve(__dirname, '../data/tictactoeGames.json'));
+                   ^
+
+ReferenceError: fs is not defined
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:25:20)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 12:09:04 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:09:49 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:30
+        info.pending = settings.welcome.filter(function(value){
+                       ^
+
+ReferenceError: settings is not defined
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:30:24)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 12:09:59 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:10:26 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:14:31 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:12
+        if (args.length() == 0) {
+                 ^
+
+TypeError: args.length is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:12:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 12:14:55 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:15:16 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:12
+        if (args.size() == 0) {
+                 ^
+
+TypeError: args.size is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:12:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 12:15:22 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:15:50 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:12
+        if (args.size() == 0) {
+                 ^
+
+TypeError: args.size is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:12:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 12:15:55 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 12:16:09 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 14:04:52 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:64
+            return value.guild != welcome.guild;
+                                  ^
+
+ReferenceError: welcome is not defined
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:64:35
+    at Array.filter (<anonymous>)
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:63:37)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+--------------------------- Session started 03/01/2022 14:05:16 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 14:08:08 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 17:41:32 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 17:47:00 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 17:48:26 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 17:49:05 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 17:50:56 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 18:12:21 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:69
+                info.pending.push(game);
+                             ^
+
+TypeError: Cannot read properties of undefined (reading 'push')
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:69:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 18:12:40 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 18:15:44 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:69
+                info.pending.push(game);
+                             ^
+
+TypeError: Cannot read properties of undefined (reading 'push')
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:69:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 18:15:53 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 18:16:26 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:69
+                info.pending.push(game);
+                             ^
+
+TypeError: Cannot read properties of undefined (reading 'push')
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:69:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 18:16:49 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 18:24:36 ------------------------------
+-- Bot is online!
+{ pending: undefined }
+undefined
+--------------------------- Session started 03/01/2022 18:25:58 ------------------------------
+-- Bot is online!
+{ pending: undefined }
+undefined
+--------------------------- Session started 03/01/2022 18:28:15 ------------------------------
+-- Bot is online!
+{ pending: undefined }
+undefined
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:73
+                info.pending.push(game);
+                             ^
+
+TypeError: Cannot read properties of undefined (reading 'push')
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:73:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 18:28:50 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 18:37:18 ------------------------------
+-- Bot is online!
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+{ pending: undefined }
+undefined
+--------------------------- Session started 03/01/2022 18:38:58 ------------------------------
+-- Bot is online!
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+{
+  pending: {
+    challanger: '623097683250511872',
+    challanged: '821280752326279230',
+    accepted: false,
+    timeOfLastAction: null,
+    channel: '710878846173446183',
+    game: [
+      '-', '-', '-',
+      '-', '-', '-',
+      '-', '-', '-'
+    ]
+  }
+}
+{
+  challanger: '623097683250511872',
+  challanged: '821280752326279230',
+  accepted: false,
+  timeOfLastAction: null,
+  channel: '710878846173446183',
+  game: [
+    '-', '-', '-',
+    '-', '-', '-',
+    '-', '-', '-'
+  ]
+}
+--------------------------- Session started 03/01/2022 18:40:24 ------------------------------
+-- Bot is online!
+------------------------------------------------
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+------------------------------------------------
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+------------------------------------------------
+{
+  pending: {
+    challanger: '623097683250511872',
+    challanged: '821280752326279230',
+    accepted: false,
+    timeOfLastAction: null,
+    channel: '710878846173446183',
+    game: [
+      '-', '-', '-',
+      '-', '-', '-',
+      '-', '-', '-'
+    ]
+  }
+}
+{
+  challanger: '623097683250511872',
+  challanged: '821280752326279230',
+  accepted: false,
+  timeOfLastAction: null,
+  channel: '710878846173446183',
+  game: [
+    '-', '-', '-',
+    '-', '-', '-',
+    '-', '-', '-'
+  ]
+}
+--------------------------- Session started 03/01/2022 18:50:53 ------------------------------
+-- Bot is online!
+------------------------------------------------
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+------------------------------------------------
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+------------------------------------------------
+{
+  pending: {
+    challanger: '623097683250511872',
+    challanged: '821280752326279230',
+    accepted: false,
+    timeOfLastAction: null,
+    channel: '710878846173446183',
+    game: [
+      '-', '-', '-',
+      '-', '-', '-',
+      '-', '-', '-'
+    ]
+  }
+}
+{
+  challanger: '623097683250511872',
+  challanged: '821280752326279230',
+  accepted: false,
+  timeOfLastAction: null,
+  channel: '710878846173446183',
+  game: [
+    '-', '-', '-',
+    '-', '-', '-',
+    '-', '-', '-'
+  ]
+}
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:78
+                info.pending.push(game);
+                             ^
+
+TypeError: info.pending.push is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:78:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 18:51:01 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 18:53:57 ------------------------------
+-- Bot is online!
+------------------------------------------------
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+------------------------------------------------
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+------------------------------------------------
+INFO WIRD GELOGGT BITTE GEH DU SCHMUTZ ------------------------
+{
+  pending: {
+    challanger: '623097683250511872',
+    challanged: '821280752326279230',
+    accepted: false,
+    timeOfLastAction: null,
+    channel: '710878846173446183',
+    game: [
+      '-', '-', '-',
+      '-', '-', '-',
+      '-', '-', '-'
+    ]
+  }
+}
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:80
+                info.pending.push(game);
+                             ^
+
+TypeError: info.pending.push is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:80:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 18:54:10 ------------------------------
+-- Bot is online!
+------------------------------------------------
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878845959667783',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+------------------------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:80
+                info.pending.push(game);
+                             ^
+
+TypeError: info.pending.push is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:80:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878845959667783',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    }
+  ]
+}
+------------------------------------------------
+INFO WIRD GELOGGT BITTE GEH DU SCHMUTZ ------------------------
+{
+  pending: {
+    challanger: '623097683250511872',
+    challanged: '821280752326279230',
+    accepted: false,
+    timeOfLastAction: null,
+    channel: '710878846173446183',
+    game: [
+      '-', '-', '-',
+      '-', '-', '-',
+      '-', '-', '-'
+    ]
+  }
+}
+--------------------------- Session started 03/01/2022 18:56:45 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 18:57:24 ------------------------------
+-- Bot is online!
+INFO WIRD GELOGGT BITTE GEH DU SCHMUTZ ------------------------
+{
+  pending: {
+    challanger: '623097683250511872',
+    challanged: '821280752326279230',
+    accepted: false,
+    timeOfLastAction: null,
+    channel: '710878846173446183',
+    game: [
+      '-', '-', '-',
+      '-', '-', '-',
+      '-', '-', '-'
+    ]
+  }
+}
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:75
+                info.pending.push(game);
+                             ^
+
+TypeError: info.pending.push is not a function
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:75:30)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
+    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
+--------------------------- Session started 03/01/2022 18:57:34 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/01/2022 18:59:03 ------------------------------
+-- Bot is online!
+INFO WIRD GELOGGT BITTE GEH DU SCHMUTZ ------------------------
+{
+  pending: [
+    {
+      challanger: '623097683250511872',
+      challanged: '821280752326279230',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878846173446183',
+      game: [Array]
+    },
+    {
+      challanger: '623097683250511872',
+      challanged: '684094400237928460',
+      accepted: false,
+      timeOfLastAction: null,
+      channel: '710878845959667783',
+      game: [Array]
+    }
+  ]
+}
+INFO WIRD GELOGGT BITTE GEH DU SCHMUTZ ------------------------
+{ pending: [] }
+--------------------------- Session started 03/01/2022 19:00:27 ------------------------------
+-- Bot is online!
