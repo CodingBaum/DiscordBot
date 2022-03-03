@@ -17,6 +17,10 @@ module.exports = {
             newEmbed.setTitle("Please enter an argument!");
             return message.channel.send(newEmbed);
         } else if (message.mentions.users.first()) { // -------------------------------------------------- Challange initiate -----------------
+            if (message.mentions.users.first() == message.author.id) {
+                newEmbed.setTitle("You may not challange yourself");
+                return message.channel.send(newEmbed);
+            }
             newEmbed
             .setColor("#0000FF")
             .setTitle(`TICTACTOE`)
