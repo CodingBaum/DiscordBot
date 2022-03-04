@@ -1,5 +1,9 @@
 # ignore node module as they are too large for git
 node_modules/
 node_modules
+
+# ignore .env to not leak critical information
 .env
+
+# ignore error.log due to lack of importance
 error.log

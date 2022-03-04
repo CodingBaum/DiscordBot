@@ -1,43 +1,30 @@
---------------------------- Session started 03/01/2022 19:05:32 ------------------------------
+--------------------------- Session started 03/04/2022 18:56:12 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/02/2022 08:02:01 ------------------------------
+--------------------------- Session started 03/04/2022 18:57:21 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/03/2022 09:37:06 ------------------------------
+--------------------------- Session started 03/04/2022 18:58:21 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/03/2022 09:57:34 ------------------------------
+--------------------------- Session started 03/04/2022 18:59:01 ------------------------------
 -- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\ping.js:19
-        message.channel.send(client.ws.ping());
-                                       ^
-
-TypeError: client.ws.ping is not a function
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\ping.js:19:40)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
-    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
-    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
---------------------------- Session started 03/03/2022 09:57:39 ------------------------------
+3
+--------------------------- Session started 03/04/2022 18:59:45 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/03/2022 09:57:58 ------------------------------
+0
+8
+--------------------------- Session started 03/04/2022 19:01:18 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/03/2022 10:02:52 ------------------------------
+8
+--------------------------- Session started 03/04/2022 19:01:36 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/03/2022 10:03:54 ------------------------------
+5
+0
+--------------------------- Session started 03/04/2022 19:05:11 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/03/2022 10:04:15 ------------------------------
+--------------------------- Session started 03/04/2022 19:05:50 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/03/2022 10:07:18 ------------------------------
+--------------------------- Session started 03/04/2022 19:06:15 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/03/2022 10:07:46 ------------------------------
+--------------------------- Session started 03/04/2022 19:14:07 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/04/2022 19:14:37 ------------------------------
 -- Bot is online!

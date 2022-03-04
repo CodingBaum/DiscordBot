@@ -33,6 +33,21 @@ module.exports = {
 
         const image_query = args.join(' ');
 
+        const check = ["nsfw", "rule34", "r34", "porn", "nude"];
+
+        var nsfw = false;
+         
+        check.forEach(x => {
+            if (image_query.includes(x) && !message.channel.nsfw) {
+                nsfw = true;
+            }
+        })
+
+        if (nsfw) {
+            newEmbed.setTitle("I cannot send nsfw content in this channel as it is not a NSFW channel!");
+            return message.channel.send(newEmbed);
+        }
+
         /* ------------- Query Validation ---------------
         const validation = "([A-Za-z0-9-.\)\(!_<>*+/,~#'@^°\"§$&/=? ]+)";
         if (!image_query.match(validation)) {
