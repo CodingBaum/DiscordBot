@@ -13,6 +13,10 @@ module.exports = {
         let data = fs.readFileSync(path.resolve(__dirname, '../data/tictactoeGames.json'));
         let info = JSON.parse(data);
 
+        info.pending = info.pending.filter(function(value) {
+            return (Date.now() - value.timeOfLastAction) < 86400000;
+        });
+
         if (args.length == 0) {
             newEmbed.setTitle("Please enter an argument!");
             return message.channel.send(newEmbed);
@@ -120,7 +124,63 @@ module.exports = {
 
             message.channel.send(printGame(current));
         } else if(args[0] == "cancel") {
+            var georg = false;
+            const l1 = info.pending.length;
+            info.pending = info.pending.filter(function(value) {
+                if (value.challenger != message.author.id) {
+                    return true;
+                } else if (value.accepted) {
+                    newEmbed.setTitle("The game has already begun. You may not cancel it!");
+                    message.channel.send(newEmbed);
+                    georg = true;
+                    return true;
+                } else {
+                    newEmbed.setDescription(`Your tictactoe challange against <@${value.challenged}> has been cancelled!`)
+                    .setColor("#b08925");
+                    return false;
+                }
+            });
 
+            if (georg) return;
+
+            if (info.pending.length == l1 ) {
+                newEmbed.setTitle("There are no current tictactoe challanges to cancel!")
+                .setColor("#FF0000");
+                return message.channel.send(newEmbed);
+            }
+
+            message.channel.send(newEmbed);
+
+            fs.writeFileSync(path.resolve(__dirname, '../data/tictactoeGames.json'), JSON.stringify(info));
+        } else if(args[0] == "profile") {
+            const played = info.finished.filter((value) => {
+                return value.player1 == message.author.id || value.player2 == message.author.id;
+            }).length;
+
+            const won = info.finished.filter((value) => {
+                return value.winner == message.author.id;
+            }).length;
+
+            const lost = info.finished.filter((value) => {
+                return (value.player1 == message.author.id || value.player2 == message.author.id) && value.winner != message.author.id && value.winner != "draw";
+            }).length;
+                
+            const drawed = info.finished.filter((value) => {
+                return (value.player1 == message.author.id || value.player2 == message.author.id) && value.winner == "draw";
+            }).length;
+
+            newEmbed.setTitle("TICTACTOE Profile")
+            .setDescription(`User: <@${message.author.id}>`)
+            .setThumbnail(message.author.displayAvatarURL())
+            .setColor("#00FF00")
+            .addFields(
+                {name: "Games played", value: played},
+                {name: "Games won", value: won},
+                {name: "Games lost", value: lost},
+                {name: "Games drawed", value: drawed}
+            );
+
+            message.channel.send(newEmbed);
         } else {
             var current = info.pending.filter(function(value) {
                 return value.challenger == message.author.id || value.challenged == message.author.id;
@@ -136,7 +196,14 @@ module.exports = {
 
             const userId = current.challenged == current.idOfLastActionUser ? current.challenger : current.challenged;
 
-            if (current.idOfLastActionUser == message.author.id) {
+            var firstTurn = true;
+
+            current.game.forEach(element => {
+                console.log(element);
+                if (element != "-") firstTurn = false;
+            });
+
+            if (current.idOfLastActionUser == message.author.id && !firstTurn) {
                 newEmbed.setTitle("It's not your turn!")
                 .setDescription(`Waiting for <@${userId}>`);
                 return message.channel.send(newEmbed);
@@ -150,7 +217,7 @@ module.exports = {
                 return !(value.challenger == message.author.id || value.challenged == message.author.id);
             });
 
-            if (!isNaN(result)) {
+            if (!isNaN(result) || result == "draw") {
                 const game = {
                     player1: current.challenger,
                     player2: current.challenged,
@@ -180,7 +247,7 @@ function play(client, message, args, userId, current) {
     }
 
 
-    if (current.game[(args[0].split("")[0]-1) + (args[0].split("")[1]-1)*3] != "-") {
+    if (current.game[(args[0].split("")[1]-1) + (args[0].split("")[0]-1)*3] != "-") {
         newEmbed.setTitle("This field is occupied pls choose another one");
         message.reply(newEmbed);
         return "error";
@@ -188,10 +255,10 @@ function play(client, message, args, userId, current) {
 
     const character = userId == current.challenged ? "X" : "O";
 
-    current.game[(args[0].split("")[0]-1) + (args[0].split("")[1]-1)*3] = character;
+    current.game[(args[0].split("")[1]-1) + (args[0].split("")[0]-1)*3] = character;
     var over = "null";
 
-    for (var i = 0; i<3; i+=3) {
+    for (var i = 0; i<9; i+=3) {
         if (current.game[i] == "X" && current.game[i+1] == "X" && current.game[i+2] == "X") over = current.challenged;
         if (current.game[i] == "O" && current.game[i+1] == "O" && current.game[i+2] == "O") over = current.challenger;
         if (current.game[i] == "X" && current.game[i+3] == "X" && current.game[i+6] == "X") over = current.challenged;
@@ -203,7 +270,20 @@ function play(client, message, args, userId, current) {
     if (current.game[2] == "X" && current.game[4] == "X" && current.game[6] == "X") over = current.challenged;
     if (current.game[2] == "O" && current.game[4] == "O" && current.game[6] == "O") over = current.challenger;
 
-    if (!isNaN(over)) {
+    var temp = true;
+
+    current.game.forEach(element => {
+        if (element == "-") {
+            temp = false;
+        }
+    });
+
+    if (temp) over = "draw";
+
+    if (over == "draw") {
+        message.channel.send(printGame(current, over));
+        return over;
+    } else if (!isNaN(over)) {
         message.channel.send(printGame(current, over));
         return over;
     } else {
@@ -223,19 +303,34 @@ function printGame(current, winner) {
                 return ":o:"
         }
     });
+
+    const currentGame = `${graphics[0]} | ${graphics[1]} | ${graphics[2]}\n---------------\n${graphics[3]} | ${graphics[4]} | ${graphics[5]}\n---------------\n${graphics[6]} | ${graphics[7]} | ${graphics[8]}`;
+
     const gameEmbed = new Discord.MessageEmbed();
     gameEmbed.setTitle("TICTACTOE")
     .setColor("#E6C319")
-    .addFields({name: "Current game: ", value: `${graphics[0]} | ${graphics[1]} | ${graphics[2]}\n---------------\n${graphics[3]} | ${graphics[4]} | ${graphics[5]}\n---------------\n${graphics[6]} | ${graphics[7]} | ${graphics[8]}`});
-    if (!isNaN(winner)) {
+    if (winner == "draw") {
+        gameEmbed.setDescription(`Player 1: <@${current.challenged}>        Player 2: <@${current.challenger}>`)
+        .setTitle("TICTACTOE | DRAW")
+        .setColor("#FC500F")
+        .addFields({name: "Result: ", value: currentGame});;
+    } else if (!isNaN(winner)) {
         gameEmbed.setDescription(`Winner: <@${winner}>        Loser: <@${winner == current.challenger ? current.challenged : current.challenger}>`)
         .setTitle("TICTACTOE | Game Over")
-        .setColor("#FC500F");
+        .setColor("#FC500F")
+        .addFields({name: "Result: ", value: currentGame});;
     } else {
-        gameEmbed.setDescription(`Player 1: <@${current.challenged}>        Player 2: <@${current.challenger}>`);
+        var next = current.challenged;
+        current.game.forEach(value => {
+            if (value != "-") next = current.idOfLastActionUser;
+        });
+
+        gameEmbed.setDescription(`Player 1: <@${current.challenged}>        Player 2: <@${current.challenger}>`)
+        .addFields(
+            {name: "Current game: ", value: currentGame},
+            {name: "_____________", value: `Next Turn: \n<@${next}>`}
+            );
     }
     
-    
-
     return gameEmbed;
 }

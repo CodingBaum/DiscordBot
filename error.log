@@ -1,74 +1,13 @@
---------------------------- Session started 03/04/2022 18:56:12 ------------------------------
+--------------------------- Session started 03/05/2022 17:34:37 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/04/2022 18:57:21 ------------------------------
+--------------------------- Session started 03/05/2022 17:38:11 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/04/2022 18:58:21 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 18:59:01 ------------------------------
--- Bot is online!
-3
---------------------------- Session started 03/04/2022 18:59:45 ------------------------------
--- Bot is online!
-0
-8
---------------------------- Session started 03/04/2022 19:01:18 ------------------------------
--- Bot is online!
-8
---------------------------- Session started 03/04/2022 19:01:36 ------------------------------
--- Bot is online!
-5
-0
---------------------------- Session started 03/04/2022 19:05:11 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 19:05:50 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 19:06:15 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 19:14:07 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 19:14:37 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 19:17:30 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 21:00:26 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 21:08:33 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 21:10:06 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 21:25:12 ------------------------------
--- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:141
-    const graphics = current.game.map(x => {
-                             ^
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:124
+        } else if(agrs[0] == "profile") {
+               ^
 
-TypeError: Cannot read properties of undefined (reading 'game')
-    at printGame (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:141:30)
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:98:34)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
-    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
---------------------------- Session started 03/04/2022 21:25:26 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 21:27:14 ------------------------------
--- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:98
-            if (current.isUndefined()) {
-                        ^
-
-TypeError: Cannot read properties of undefined (reading 'isUndefined')
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:98:25)
+ReferenceError: agrs is not defined
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:124:16)
     at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
     at Client.emit (node:events:390:28)
     at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
@@ -84,16 +23,20 @@ TypeError: Cannot read properties of undefined (reading 'isUndefined')
     at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
     at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
     at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
---------------------------- Session started 03/04/2022 21:27:20 ------------------------------
+--------------------------- Session started 03/05/2022 18:11:56 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/04/2022 21:27:51 ------------------------------
+--------------------------- Session started 03/05/2022 19:32:08 ------------------------------
 -- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:98
-            if (isUndefined(current)) {
-            ^
+--------------------------- Session started 03/05/2022 19:32:44 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:33:15 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:124
+        } else if(agrs[0] == "profile") {
+               ^
 
-ReferenceError: isUndefined is not defined
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:98:13)
+ReferenceError: agrs is not defined
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:124:16)
     at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
     at Client.emit (node:events:390:28)
     at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
@@ -109,17 +52,48 @@ ReferenceError: isUndefined is not defined
     at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
     at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
     at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
---------------------------- Session started 03/04/2022 21:27:56 ------------------------------
+--------------------------- Session started 03/05/2022 19:33:24 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/04/2022 21:28:31 ------------------------------
+--------------------------- Session started 03/05/2022 19:33:43 ------------------------------
 -- Bot is online!
+--------------------------- Session started 03/05/2022 19:36:57 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:37:45 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:39:44 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:39:58 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:42:00 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:45:11 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:46:54 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:49:30 ------------------------------
+-- Bot is online!
+-
+-
+-
+-
+-
+-
+-
+-
+-
+--------------------------- Session started 03/05/2022 19:50:14 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:50:42 ------------------------------
+-- Bot is online!
+-
 C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146
-    const graphics = current.game.map(x => {
-                             ^
+                if (!compare(element, "-")) firstTurn = false;
+                ^
 
-TypeError: Cannot read properties of undefined (reading 'game')
-    at printGame (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146:30)
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:103:34)
+ReferenceError: compare is not defined
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146:17
+    at Array.forEach (<anonymous>)
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:144:26)
     at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
     at Client.emit (node:events:390:28)
     at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
@@ -133,36 +107,19 @@ TypeError: Cannot read properties of undefined (reading 'game')
     at Receiver.emit (node:events:390:28)
     at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
     at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
-    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
---------------------------- Session started 03/04/2022 21:28:36 ------------------------------
+--------------------------- Session started 03/05/2022 19:50:47 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/04/2022 21:29:09 ------------------------------
+--------------------------- Session started 03/05/2022 19:52:45 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/04/2022 21:31:09 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 21:31:50 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 21:39:52 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 21:41:49 ------------------------------
--- Bot is online!
-yee?
---------------------------- Session started 03/04/2022 21:42:31 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:14:12 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:15:13 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:27:10 ------------------------------
--- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:186
-        newEmbed.setDescription(`Winner: <@${winner}>        Loser: <@${winner == current.challenger ? current.challenged : current.challenger}>`)
-        ^
+-
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146
+                if (!elememt.localeCompare("-")) firstTurn = false;
+                ^
 
-ReferenceError: newEmbed is not defined
-    at printGame (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:186:9)
-    at play (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:166:26)
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:125:28)
+ReferenceError: elememt is not defined
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146:17
+    at Array.forEach (<anonymous>)
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:144:26)
     at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
     at Client.emit (node:events:390:28)
     at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
@@ -176,16 +133,191 @@ ReferenceError: newEmbed is not defined
     at Receiver.emit (node:events:390:28)
     at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
     at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
---------------------------- Session started 03/04/2022 23:27:18 ------------------------------
+--------------------------- Session started 03/05/2022 19:52:50 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/04/2022 23:27:45 ------------------------------
+--------------------------- Session started 03/05/2022 19:53:06 ------------------------------
 -- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:134
-            if (result.isInteger()) {
-                       ^
+-
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146
+                if (!element.localeCompare("-")) firstTurn = false;
+                                                           ^
 
-TypeError: result.isInteger is not a function
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:134:24)
+TypeError: Assignment to constant variable.
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146:60
+    at Array.forEach (<anonymous>)
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:144:26)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
+    at Client.emit (node:events:390:28)
+    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
+    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
+    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
+    at WebSocket.emit (node:events:390:28)
+    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
+    at Receiver.emit (node:events:390:28)
+    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
+    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
+--------------------------- Session started 03/05/2022 19:53:12 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:54:31 ------------------------------
+-- Bot is online!
+-
+-
+-
+-
+-
+-
+-
+-
+-
+--------------------------- Session started 03/05/2022 19:55:35 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:57:55 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:58:30 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:59:37 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 19:59:48 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/05/2022 20:00:40 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/06/2022 12:05:37 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/06/2022 12:42:30 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/06/2022 18:53:45 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/06/2022 21:57:59 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 09:47:53 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 09:51:05 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 09:59:57 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:04:30 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:05:16 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:06:24 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:13:32 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:17:38 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:22:06 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:24:35 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:26:58 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:31:41 ------------------------------
+-- Bot is online!
+null
+null
+null
+null
+null
+null
+684094400237928460
+--------------------------- Session started 03/07/2022 10:37:06 ------------------------------
+-- Bot is online!
+0
+1: - 2: - 3: -
+null
+0
+1: - 2: - 3: -
+null
+0
+1: - 2: - 3: -
+null
+0
+1: - 2: - 3: -
+null
+0
+1: - 2: - 3: -
+null
+--------------------------- Session started 03/07/2022 10:38:52 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:39:25 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:40:35 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:44:35 ------------------------------
+-- Bot is online!
+-
+-
+-
+-
+-
+-
+-
+-
+-
+null
+--------------------------- Session started 03/07/2022 10:48:14 ------------------------------
+-- Bot is online!
+-
+-
+-
+-
+-
+-
+-
+-
+-
+null
+X
+-
+-
+-
+-
+-
+-
+-
+-
+null
+X
+-
+-
+-
+-
+-
+O
+-
+-
+null
+X
+-
+-
+-
+X
+-
+O
+-
+-
+null
+X
+-
+-
+-
+X
+-
+O
+O
+-
+684094400237928460
+--------------------------- Session started 03/07/2022 10:53:28 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:158
+            .setThumbnail(message.author.user.displayAvatarURL())
+                                              ^
+
+TypeError: Cannot read properties of undefined (reading 'displayAvatarURL')
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:158:47)
     at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
     at Client.emit (node:events:390:28)
     at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
@@ -201,16 +333,24 @@ TypeError: result.isInteger is not a function
     at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
     at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
     at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
---------------------------- Session started 03/04/2022 23:27:51 ------------------------------
+--------------------------- Session started 03/07/2022 10:53:36 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/04/2022 23:28:38 ------------------------------
+--------------------------- Session started 03/07/2022 10:54:10 ------------------------------
 -- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:134
-            if (!result.isNaN()) {
-                        ^
+--------------------------- Session started 03/07/2022 10:54:37 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 10:54:57 ------------------------------
+-- Bot is online!
+--------------------------- Session started 03/07/2022 11:04:05 ------------------------------
+-- Bot is online!
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:165
+                return (value.player1 == message.author.id || value.player2 == message.author.id) && winner != message.author.id && winner != "draw";
+                                                                                                     ^
 
-TypeError: result.isNaN is not a function
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:134:25)
+ReferenceError: winner is not defined
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:165:102
+    at Array.filter (<anonymous>)
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:164:40)
     at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
     at Client.emit (node:events:390:28)
     at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
@@ -224,208 +364,7 @@ TypeError: result.isNaN is not a function
     at Receiver.emit (node:events:390:28)
     at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
     at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
-    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
-    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
---------------------------- Session started 03/04/2022 23:28:45 ------------------------------
+--------------------------- Session started 03/07/2022 11:04:12 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/04/2022 23:30:18 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:31:26 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:38:38 ------------------------------
--- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:172
-    if (!isNan(over)) {
-    ^
-
-ReferenceError: isNan is not defined
-    at play (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:172:5)
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:125:28)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
-    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
---------------------------- Session started 03/04/2022 23:38:53 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:39:13 ------------------------------
--- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:196
-    if (!isNan(winner)) {
-    ^
-
-ReferenceError: isNan is not defined
-    at printGame (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:196:5)
-    at play (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:173:30)
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:125:28)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
---------------------------- Session started 03/04/2022 23:39:32 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:39:59 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:41:24 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:43:06 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:44:45 ------------------------------
--- Bot is online!
---------------------------- Session started 03/04/2022 23:45:31 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 13:27:44 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 15:25:39 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 15:45:33 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 15:50:44 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 15:59:09 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 16:12:42 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 16:50:52 ------------------------------
--- Bot is online!
-{
-  challenger: '623097683250511872',
-  challenged: '684094400237928460',
-  accepted: true,
-  timeOfLastAction: 1646495606127,
-  idOfLastActionUser: '623097683250511872',
-  channel: '710878846173446183',
-  game: [
-    'X', '-', '-',
-    '-', '-', '-',
-    '-', '-', '-'
-  ]
-}
-{
-  challenger: '623097683250511872',
-  challenged: '684094400237928460',
-  accepted: true,
-  timeOfLastAction: 1646495614719,
-  idOfLastActionUser: '684094400237928460',
-  channel: '710878846173446183',
-  game: [
-    'X', '-', '-',
-    'O', '-', '-',
-    '-', '-', '-'
-  ]
-}
-{
-  challenger: '631417571425386496',
-  challenged: '623097683250511872',
-  accepted: true,
-  timeOfLastAction: 1646496965849,
-  idOfLastActionUser: '631417571425386496',
-  channel: '822573644898500648',
-  game: [
-    'X', '-', '-',
-    '-', '-', '-',
-    '-', '-', '-'
-  ]
-}
---------------------------- Session started 03/05/2022 17:18:52 ------------------------------
--- Bot is online!
-{
-  challenger: '623097683250511872',
-  challenged: '631417571425386496',
-  accepted: true,
-  timeOfLastAction: 1646497690814,
-  idOfLastActionUser: '623097683250511872',
-  channel: '822573644898500648',
-  game: [
-    'X', '-', '-',
-    '-', '-', '-',
-    '-', '-', '-'
-  ]
-}
---------------------------- Session started 03/05/2022 17:29:41 ------------------------------
--- Bot is online!
-{
-  challenger: '623097683250511872',
-  challenged: '631417571425386496',
-  accepted: true,
-  timeOfLastAction: 1646497699023,
-  idOfLastActionUser: '631417571425386496',
-  channel: '822573644898500648',
-  game: [
-    'X', '-', '-',
-    '-', '-', '-',
-    '-', '-', 'O'
-  ]
-}
-{
-  challenger: '623097683250511872',
-  challenged: '631417571425386496',
-  accepted: true,
-  timeOfLastAction: 1646497790713,
-  idOfLastActionUser: '623097683250511872',
-  channel: '822573644898500648',
-  game: [
-    'X', '-', '-',
-    '-', '-', '-',
-    'X', '-', 'O'
-  ]
-}
-{
-  challenger: '623097683250511872',
-  challenged: '631417571425386496',
-  accepted: true,
-  timeOfLastAction: 1646497870670,
-  idOfLastActionUser: '631417571425386496',
-  channel: '822573644898500648',
-  game: [
-    'X', '-', '-',
-    'O', '-', '-',
-    'X', '-', 'O'
-  ]
-}
-{
-  challenger: '623097683250511872',
-  challenged: '631417571425386496',
-  accepted: true,
-  timeOfLastAction: 1646497884397,
-  idOfLastActionUser: '623097683250511872',
-  channel: '822573644898500648',
-  game: [
-    'X', '-', 'X',
-    'O', '-', '-',
-    'X', '-', 'O'
-  ]
-}
-{
-  challenger: '623097683250511872',
-  challenged: '631417571425386496',
-  accepted: true,
-  timeOfLastAction: 1646497901410,
-  idOfLastActionUser: '631417571425386496',
-  channel: '822573644898500648',
-  game: [
-    'X', 'O', 'X',
-    'O', '-', '-',
-    'X', '-', 'O'
-  ]
-}
---------------------------- Session started 03/05/2022 17:33:40 ------------------------------
+--------------------------- Session started 03/07/2022 11:04:49 ------------------------------
 -- Bot is online!
