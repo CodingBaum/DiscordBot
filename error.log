@@ -1,323 +1,189 @@
---------------------------- Session started 03/05/2022 17:34:37 ------------------------------
+--------------------------- Session started 03/29/2022 10:00:18 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 17:38:11 ------------------------------
--- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:124
-        } else if(agrs[0] == "profile") {
-               ^
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\images-scraper\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:106
+        return new Promise((fulfill) => (this._maximumTimer = setTimeout(fulfill, this._timeout))).then(() => new Errors_js_1.TimeoutError(errorMessage));
+                                                                                                              ^
 
-ReferenceError: agrs is not defined
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:124:16)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
-    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
-    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
---------------------------- Session started 03/05/2022 18:11:56 ------------------------------
+TimeoutError: Navigation timeout of 30000 ms exceeded
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\images-scraper\node_modules\puppeteer\lib\cjs\puppeteer\common\LifecycleWatcher.js:106:111
+--------------------------- Session started 03/29/2022 13:31:12 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:32:08 ------------------------------
+--------------------------- Session started 03/31/2022 12:13:24 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:32:44 ------------------------------
+--------------------------- Session started 04/04/2022 10:23:11 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:33:15 ------------------------------
--- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:124
-        } else if(agrs[0] == "profile") {
-               ^
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:107
+      return reject(new HTTPError(error.message, error.constructor.name, error.status, request.method, request.path));
+                    ^
 
-ReferenceError: agrs is not defined
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:124:16)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
-    at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
-    at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
---------------------------- Session started 03/05/2022 19:33:24 ------------------------------
+HTTPError [FetchError]: request to https://discordapp.com/api/v7/channels/710878846173446175/messages/960455140089942037 failed, reason: read ECONNRESET
+    at RequestHandler.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\rest\RequestHandler.js:107:21)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+  code: 500,
+  method: 'delete',
+  path: '/channels/710878846173446175/messages/960455140089942037'
+}
+--------------------------- Session started 04/04/2022 10:26:01 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:33:43 ------------------------------
+--------------------------- Session started 04/19/2022 09:59:03 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:36:57 ------------------------------
+--------------------------- Session started 05/11/2022 08:45:04 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:37:45 ------------------------------
+--------------------------- Session started 05/16/2022 08:27:53 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:39:44 ------------------------------
+--------------------------- Session started 05/31/2022 17:01:16 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:39:58 ------------------------------
+--------------------------- Session started 05/31/2022 17:06:37 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:42:00 ------------------------------
+--------------------------- Session started 05/31/2022 18:48:08 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:45:11 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 19:46:54 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 19:49:30 ------------------------------
--- Bot is online!
--
--
--
--
--
--
--
--
--
---------------------------- Session started 03/05/2022 19:50:14 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 19:50:42 ------------------------------
--- Bot is online!
--
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146
-                if (!compare(element, "-")) firstTurn = false;
-                ^
+--------------------------- Session started 08/14/2022 15:29:59 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4
+const valorant = new API(Regions.EU, process.env.VALORANT_API_KEY, Regions.EUROPE);
+                 ^
 
-ReferenceError: compare is not defined
-    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146:17
+ReferenceError: API is not defined
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
     at Array.forEach (<anonymous>)
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:144:26)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
---------------------------- Session started 03/05/2022 19:50:47 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 19:52:45 ------------------------------
--- Bot is online!
--
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146
-                if (!elememt.localeCompare("-")) firstTurn = false;
-                ^
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+--------------------------- Session started 08/14/2022 15:30:01 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4
+const valorant = new API(Regions.EU, process.env.VALORANT_API_KEY, Regions.EUROPE);
+                 ^
 
-ReferenceError: elememt is not defined
-    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146:17
+ReferenceError: API is not defined
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
     at Array.forEach (<anonymous>)
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:144:26)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
---------------------------- Session started 03/05/2022 19:52:50 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 19:53:06 ------------------------------
--- Bot is online!
--
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146
-                if (!element.localeCompare("-")) firstTurn = false;
-                                                           ^
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+--------------------------- Session started 08/14/2022 15:30:03 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4
+const valorant = new API(Regions.EU, process.env.VALORANT_API_KEY, Regions.EUROPE);
+                 ^
 
-TypeError: Assignment to constant variable.
-    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:146:60
+ReferenceError: API is not defined
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4:18)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
     at Array.forEach (<anonymous>)
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:144:26)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
---------------------------- Session started 03/05/2022 19:53:12 ------------------------------
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+--------------------------- Session started 08/14/2022 15:30:04 ------------------------------
+--------------------------- Session started 08/14/2022 15:30:15 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4
+const valorant = new api(Regions.EU, process.env.VALORANT_API_KEY, Regions.EUROPE);
+                         ^
+
+ReferenceError: Regions is not defined
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+--------------------------- Session started 08/14/2022 15:30:16 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4
+const valorant = new api(Regions.EU, process.env.VALORANT_API_KEY, Regions.EUROPE);
+                         ^
+
+ReferenceError: Regions is not defined
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+--------------------------- Session started 08/14/2022 15:30:18 ------------------------------
+--------------------------- Session started 08/14/2022 15:30:41 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4
+const valorant = new api(Regions.EU, process.env.VALORANT_API_KEY, Regions.EUROPE);
+                         ^
+
+ReferenceError: Regions is not defined
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:4:26)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:79:12)
+--------------------------- Session started 08/14/2022 15:30:42 ------------------------------
+--------------------------- Session started 08/14/2022 15:31:20 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:54:31 ------------------------------
+--------------------------- Session started 08/14/2022 15:31:46 ------------------------------
 -- Bot is online!
--
--
--
--
--
--
--
--
--
---------------------------- Session started 03/05/2022 19:55:35 ------------------------------
+--------------------------- Session started 08/14/2022 15:34:49 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/05/2022 19:57:55 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 19:58:30 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 19:59:37 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 19:59:48 ------------------------------
--- Bot is online!
---------------------------- Session started 03/05/2022 20:00:40 ------------------------------
--- Bot is online!
---------------------------- Session started 03/06/2022 12:05:37 ------------------------------
--- Bot is online!
---------------------------- Session started 03/06/2022 12:42:30 ------------------------------
--- Bot is online!
---------------------------- Session started 03/06/2022 18:53:45 ------------------------------
--- Bot is online!
---------------------------- Session started 03/06/2022 21:57:59 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 09:47:53 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 09:51:05 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 09:59:57 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:04:30 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:05:16 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:06:24 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:13:32 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:17:38 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:22:06 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:24:35 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:26:58 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:31:41 ------------------------------
--- Bot is online!
-null
-null
-null
-null
-null
-null
-684094400237928460
---------------------------- Session started 03/07/2022 10:37:06 ------------------------------
--- Bot is online!
-0
-1: - 2: - 3: -
-null
-0
-1: - 2: - 3: -
-null
-0
-1: - 2: - 3: -
-null
-0
-1: - 2: - 3: -
-null
-0
-1: - 2: - 3: -
-null
---------------------------- Session started 03/07/2022 10:38:52 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:39:25 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:40:35 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:44:35 ------------------------------
--- Bot is online!
--
--
--
--
--
--
--
--
--
-null
---------------------------- Session started 03/07/2022 10:48:14 ------------------------------
--- Bot is online!
--
--
--
--
--
--
--
--
--
-null
-X
--
--
--
--
--
--
--
--
-null
-X
--
--
--
--
--
-O
--
--
-null
-X
--
--
--
-X
--
-O
--
--
-null
-X
--
--
--
-X
--
-O
-O
--
-684094400237928460
---------------------------- Session started 03/07/2022 10:53:28 ------------------------------
--- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:158
-            .setThumbnail(message.author.user.displayAvatarURL())
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:10
+        valorant.ContentV1.getContent(Locales[en-US]).then(content => {
                                               ^
 
-TypeError: Cannot read properties of undefined (reading 'displayAvatarURL')
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:158:47)
+ReferenceError: en is not defined
+    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:10:47)
     at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
     at Client.emit (node:events:390:28)
     at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
@@ -333,38 +199,138 @@ TypeError: Cannot read properties of undefined (reading 'displayAvatarURL')
     at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
     at Receiver.startLoop (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:143:22)
     at Receiver._write (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:78:10)
---------------------------- Session started 03/07/2022 10:53:36 ------------------------------
+--------------------------- Session started 08/14/2022 15:34:57 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/07/2022 10:54:10 ------------------------------
+--------------------------- Session started 08/14/2022 15:35:17 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/07/2022 10:54:37 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 10:54:57 ------------------------------
--- Bot is online!
---------------------------- Session started 03/07/2022 11:04:05 ------------------------------
--- Bot is online!
-C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:165
-                return (value.player1 == message.author.id || value.player2 == message.author.id) && winner != message.author.id && winner != "draw";
-                                                                                                     ^
+node:internal/process/promises:246
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
 
-ReferenceError: winner is not defined
-    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:165:102
-    at Array.filter (<anonymous>)
-    at Object.execute (C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\tictactoe.js:164:40)
-    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\events\guild\message.js:19:25)
-    at Client.emit (node:events:390:28)
-    at MessageCreateAction.handle (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\actions\MessageCreate.js:31:14)
-    at Object.module.exports [as MESSAGE_CREATE] (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\handlers\MESSAGE_CREATE.js:4:32)
-    at WebSocketManager.handlePacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketManager.js:386:31)
-    at WebSocketShard.onPacket (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:435:22)
-    at WebSocketShard.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\discord.js\src\client\websocket\WebSocketShard.js:293:10)
-    at WebSocket.onMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\event-target.js:132:16)
-    at WebSocket.emit (node:events:390:28)
-    at Receiver.receiverOnMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\websocket.js:1047:20)
-    at Receiver.emit (node:events:390:28)
-    at Receiver.dataMessage (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:517:14)
-    at Receiver.getData (C:\Users\marku\OneDrive\Dokumente\DiscordBot\node_modules\ws\lib\receiver.js:435:17)
---------------------------- Session started 03/07/2022 11:04:12 ------------------------------
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+--------------------------- Session started 08/14/2022 15:35:23 ------------------------------
 -- Bot is online!
---------------------------- Session started 03/07/2022 11:04:49 ------------------------------
+--------------------------- Session started 08/14/2022 15:36:00 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:11
+            await message.channel.send(content.characters.map(char => char.name));
+            ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+--------------------------- Session started 08/14/2022 15:36:01 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:11
+            await message.channel.send(content.characters.map(char => char.name));
+            ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+--------------------------- Session started 08/14/2022 15:36:03 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:11
+            await message.channel.send(content.characters.map(char => char.name));
+            ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+--------------------------- Session started 08/14/2022 15:36:04 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:11
+            await message.channel.send(content.characters.map(char => char.name));
+            ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+--------------------------- Session started 08/14/2022 15:36:05 ------------------------------
+C:\Users\marku\OneDrive\Dokumente\DiscordBot\commands\valinfo.js:11
+            await message.channel.send(content.characters.map(char => char.name));
+            ^^^^^
+
+SyntaxError: await is only valid in async functions and the top level bodies of modules
+    at Object.compileFunction (node:vm:352:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1031:15)
+    at Module._compile (node:internal/modules/cjs/loader:1065:27)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at module.exports (C:\Users\marku\OneDrive\Dokumente\DiscordBot\handler\command_handler.js:7:25)
+    at C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:10:36
+    at Array.forEach (<anonymous>)
+    at Object.<anonymous> (C:\Users\marku\OneDrive\Dokumente\DiscordBot\index.js:9:38)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+--------------------------- Session started 08/14/2022 15:36:06 ------------------------------
+--------------------------- Session started 08/14/2022 15:36:56 ------------------------------
+-- Bot is online!
+node:internal/process/promises:246
+          triggerUncaughtException(err, true /* fromPromise */);
+          ^
+
+[UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "#<Object>".] {
+  code: 'ERR_UNHANDLED_REJECTION'
+}
+--------------------------- Session started 08/14/2022 15:37:05 ------------------------------
 -- Bot is online!

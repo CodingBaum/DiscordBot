@@ -13,6 +13,7 @@ module.exports = {
         let data = fs.readFileSync(path.resolve(__dirname, '../data/tictactoeGames.json'));
         let info = JSON.parse(data);
 
+        // --------------------------- delete all games with no action for more than 24 hours ----------------------
         info.pending = info.pending.filter(function(value) {
             return (Date.now() - value.timeOfLastAction) < 86400000;
         });
@@ -20,7 +21,7 @@ module.exports = {
         if (args.length == 0) {
             newEmbed.setTitle("Please enter an argument!");
             return message.channel.send(newEmbed);
-        } else if (message.mentions.users.first()) { // -------------------------------------------------- Challange initiate -----------------
+        } else if (message.mentions.users.first() && args[0] != "profile") { // -------------------------------------------------- Challange initiate -----------------
             if (message.mentions.users.first() == message.author.id) {
                 newEmbed.setTitle("You may not challenge yourself");
                 return message.channel.send(newEmbed);
@@ -101,7 +102,7 @@ module.exports = {
                 newEmbed.setTitle("TICTACTOE Challenge")
                 .addFields({name: "-----------", value: `Challenge from <@${info.pending.filter(function(value) {
                     return value.challenged == message.author.id && value.channel == message.channel.id && !value.accepted;
-                })[0].challanger}> has been rejected!`});
+                })[0].challenger}> has been rejected!`});
 
                 message.channel.send(newEmbed);
 
@@ -111,7 +112,7 @@ module.exports = {
 
                 fs.writeFileSync(path.resolve(__dirname, '../data/tictactoeGames.json'), JSON.stringify(info));
             }
-        } else if(args[0] == "status") {
+        } else if(args[0] == "status") { // --------------------------------- status -------------------
             const current = info.pending.filter(function(value) {
                 return value.challenger == message.author.id || value.challenged == message.author.id;
             })[0];
@@ -123,7 +124,7 @@ module.exports = {
             }
 
             message.channel.send(printGame(current));
-        } else if(args[0] == "cancel") {
+        } else if(args[0] == "cancel") { // ---------------------------------- cancel ----------------------
             var georg = false;
             const l1 = info.pending.length;
             info.pending = info.pending.filter(function(value) {
@@ -152,26 +153,28 @@ module.exports = {
             message.channel.send(newEmbed);
 
             fs.writeFileSync(path.resolve(__dirname, '../data/tictactoeGames.json'), JSON.stringify(info));
-        } else if(args[0] == "profile") {
+        } else if(args[0] == "profile") { // ----------------------------------- profile ---------------------
+            var user = message.mentions.users.first() ? message.mentions.users.first() : message.author;
+
             const played = info.finished.filter((value) => {
-                return value.player1 == message.author.id || value.player2 == message.author.id;
+                return value.player1 == user.id || value.player2 == user.id;
             }).length;
 
             const won = info.finished.filter((value) => {
-                return value.winner == message.author.id;
+                return value.winner == user.id;
             }).length;
 
             const lost = info.finished.filter((value) => {
-                return (value.player1 == message.author.id || value.player2 == message.author.id) && value.winner != message.author.id && value.winner != "draw";
+                return (value.player1 == user.id || value.player2 == user.id) && value.winner != user.id && value.winner != "draw";
             }).length;
                 
             const drawed = info.finished.filter((value) => {
-                return (value.player1 == message.author.id || value.player2 == message.author.id) && value.winner == "draw";
+                return (value.player1 == user.id || value.player2 == user.id) && value.winner == "draw";
             }).length;
 
             newEmbed.setTitle("TICTACTOE Profile")
-            .setDescription(`User: <@${message.author.id}>`)
-            .setThumbnail(message.author.displayAvatarURL())
+            .setDescription(`User: <@${user.id}>`)
+            .setThumbnail(user.displayAvatarURL())
             .setColor("#00FF00")
             .addFields(
                 {name: "Games played", value: played},
@@ -181,7 +184,7 @@ module.exports = {
             );
 
             message.channel.send(newEmbed);
-        } else {
+        } else { // --------------------------------------- game --------------------------------
             var current = info.pending.filter(function(value) {
                 return value.challenger == message.author.id || value.challenged == message.author.id;
             });
@@ -199,7 +202,6 @@ module.exports = {
             var firstTurn = true;
 
             current.game.forEach(element => {
-                console.log(element);
                 if (element != "-") firstTurn = false;
             });
 
@@ -236,6 +238,7 @@ module.exports = {
     }
 }
 
+// ------------------------------------------------------------------ PLAY FUNCTION ---------------
 function play(client, message, args, userId, current) {
     const newEmbed = new Discord.MessageEmbed();
     newEmbed.setColor("#FF0000");
@@ -261,8 +264,8 @@ function play(client, message, args, userId, current) {
     for (var i = 0; i<9; i+=3) {
         if (current.game[i] == "X" && current.game[i+1] == "X" && current.game[i+2] == "X") over = current.challenged;
         if (current.game[i] == "O" && current.game[i+1] == "O" && current.game[i+2] == "O") over = current.challenger;
-        if (current.game[i] == "X" && current.game[i+3] == "X" && current.game[i+6] == "X") over = current.challenged;
-        if (current.game[i] == "O" && current.game[i+3] == "O" && current.game[i+6] == "O") over = current.challenger;
+        if (current.game[i/3] == "X" && current.game[i/3+3] == "X" && current.game[i/3+6] == "X") over = current.challenged;
+        if (current.game[i/3] == "O" && current.game[i/3+3] == "O" && current.game[i/3+6] == "O") over = current.challenger;
     }
 
     if (current.game[0] == "X" && current.game[4] == "X" && current.game[8] == "X") over = current.challenged;
@@ -292,6 +295,7 @@ function play(client, message, args, userId, current) {
     }
 }
 
+// ------------------------------------------------ PRINT GAME FUNCTION ------------------------------
 function printGame(current, winner) {
     const graphics = current.game.map(x => {
         switch (x) {

@@ -7,7 +7,7 @@ module.exports = {
         const newEmbed = new Discord.MessageEmbed()
         .setColor('#5dd61f')
         .setTitle("Commandlist for the 'ThisIsNotABot' Bot")
-        .setURL('https://discord.com/oauth2/authorize?client_id=821280752326279230&scope=bot&permissions=2147483647')
+        .setURL('https://discord.com/api/oauth2/authorize?client_id=821280752326279230&permissions=8&scope=bot%20applications.commands')
         .addFields(
             {name: '-ping', value: 'a command to check whether the bot is responding'},
             {name: '-clear [amount of messages]', value: 'a command to clear a specified amount of messages'},
